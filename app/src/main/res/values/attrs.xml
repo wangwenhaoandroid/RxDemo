@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count" format="integer" />
+        <attr name="item_text_color_selected" format="color"/>
+        <attr name="item_text_color_normal" format="color"/>
+        <attr name="item_text_size" format="dimension"/>
+        <attr name="item_bottom_type">
+            <enum name="line" value="0"/>
+            <enum name="triangle" value="1"/>
+        </attr>
+        <attr name="item_line_color" format="color"/>
+        <attr name="item_line_height" format="dimension"/>
+    </declare-styleable>
+</resources>
